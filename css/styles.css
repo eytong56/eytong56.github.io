@@ -32,6 +32,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+p.intro {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+
 h1 {
     color: #333399;
     font-size: 36px;
@@ -39,10 +45,18 @@ h1 {
     margin-bottom: 24px;
 }
 
-h2 {
+h1.intro {
     color: #333399;
     font-size: 24px;
+    text-align: left;
     margin-bottom: 24px;
+}
+
+h2 {
+    color: #8585cc;
+    font-size: 24px;
+    margin-top: 36px;
+    margin-bottom: 36px;
 }
 
 .center {
@@ -89,6 +103,23 @@ a:hover, a:hover.nav-link{
 
 .navbar-toggler:focus {
     box-shadow: none;
+}
+
+.vertical-bar {
+    margin-left: 24px;
+    border-left: 2px solid #8585cc;
+    padding-top: 3px;
+    padding-left: 24px;
+    padding-bottom: 3px;
+}
+
+.vertical-bar p {
+    font-weight: 300;
+}
+
+.vertical-bar.subsection {
+    padding-top: 0px;
+    padding-bottom: 24px;
 }
 
 .section-link {
@@ -141,6 +172,30 @@ a.project-link {
     text-decoration: none;
 }
 
+.creative {
+    margin-top: 24px;
+}
+
+.creative-card {
+    background-color: #f8f9fa;
+    padding: 24px;
+}
+
+.creative-card:hover {
+    outline: 2px solid #b1b1cc;
+}
+
+.creative-image {
+    width: 100px;
+    margin-bottom: 24px;
+}
+.creative-desc {
+    color: #333399;
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: none;
+}
+
 .social-icons {
     text-align: center;
     width: 200px;
@@ -156,6 +211,6 @@ a.project-link {
 .divider {
     width: 36px;
     height: 0px;
-    border-bottom: 2px solid #333399;
+    border-bottom: 2px solid #8585cc;
     margin: auto;
 }

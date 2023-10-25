@@ -21,7 +21,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container-fluid">
-              <a class="navbar-brand bold" href="#">Emma Tong</a>
+              <a class="navbar-brand bold" href="#">| Emma Tong -</a>
               <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -30,6 +30,8 @@
                   <a class="nav-link active" aria-current="page" href="#about">About</a>
                   <a class="nav-link disabled hide-mobile" href="#">|</a>
                   <a class="nav-link" href="#projects">Projects</a>
+                  <a class="nav-link disabled hide-mobile" href="#">|</a>
+                  <a class="nav-link" href="#creative">Creative Works</a>
                   <a class="nav-link disabled hide-mobile" href="#">|</a>
                   <a class="nav-link" href="#contact">Contact</a>
                 </div>
@@ -40,11 +42,14 @@
         <div class="container-fluid page">
             <!-- About Section -->
             <div class="section">
-                <h2 class="section-link"><span id="about"></span>Hi, I'm Emma Tong.</h2>
-                <p>I'm a junior studying Computer Science at Carnegie Mellon University.
-                    <br><br>
-                    For the past two semesters, I was a teaching assistant at Carnegie Mellon University for computer science class 15-150: Principles of Functional Programming.
-                </p>
+                <h1 class="section-link intro"><span id="about"></span>Hi, I'm Emma Tong.</h1>
+                <p class="intro">I'm a junior studying Computer Science at Carnegie Mellon University (with a minor in Music Technology).</p>
+                <div class="vertical-bar">
+                    <p>For the Fall 2022 and Spring 2023 semesters, I was a teaching assistant at Carnegie Mellon University for computer science class 15-150: Principles of Functional Programming.</p>
+                    <p>I am the Head Organizer of the <a href="https://www.cs.cmu.edu/~./scsday/" target="_blank" rel="noopener noreferrer">SCS Day Planning Committee</a>, and previous President of the <a href="https://www.cmujsa.com" target="_blank" rel="noopener noreferrer">CMU Japanese Student Association</a>.</p>
+                    <p>Avid photographer, graphic designer, pianist, composer, and origamist (see my <a href="#creative">Creative Works</a> below).</p>
+                    <p><span class="bold">Favorite Courses:</span> Probability and Computing (15-259), Principles of Functional Programming (15-150), Ethics and Policy Issues in Computing (17-200, in progress).
+                </div>
             </div>
 
             <div class="divider"></div>
@@ -78,7 +83,7 @@
                                 <p class="project-desc">
                                     Created a social networking app in a team of four that analyzes quizzes taken by your friends about you to assess your personality. 
                                     Utilized Unity to develop the app and Adobe Illustrator to design the app UI. 
-                                    <br><br>Awarded the Aptiv Sponsored Prize for Best Hack for a More Connected World at HackCMU 2022.
+                                    <br><br><span class="bold">Awarded the Aptiv Sponsored Prize for Best Hack for a More Connected World at HackCMU 2022.</span>
                                 </p>
                             </div>
                         </a>
@@ -114,6 +119,66 @@
                         </a>
                     </div>
                 </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- Creative Works Section -->
+            <div class="section">
+                <h1 class="section-link"><span id="creative"></span>CREATIVE WORKS</h1>
+
+                <h2>Graphic Design / Illustration</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center align-items-top vertical-bar subsection">
+                    <div class="col creative">
+                        <a class="project-link" href="https://hackor.org" target="_blank" rel="noopener noreferrer">
+                            <div class="creative-card h-100">
+                                <img class="w-100 creative-image" src="images/design/HackOR-logo.png" alt="">
+                                <p class="creative-desc">Logo for HackOR, 2021</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col creative">
+                        <div class="creative-card h-100">
+                            <img class="w-100 creative-image" src="images/design/15-150-hoodie.png" alt="">
+                            <p class="creative-desc">Hoodie Design for 15-150 Teaching Assistants, 2023</p>
+                        </div>
+                    </div>
+                    <div class="col creative">
+                        <div class="creative-card h-100">
+                            <img class="w-100 creative-image" src="images/design/scsday23-sticker.png" alt="">
+                            <p class="creative-desc">Logo Submission for SCS Day 2023, 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Photography</h2>
+                <div class="row row-cols-1 row-cols-lg-2 justify-content-center align-items-top vertical-bar subsection">
+                    <div class="col creative">
+                        <div class="creative-card h-100">
+                            <img class="w-100 creative-image" src="images/photos/amsterdam.JPG" alt="">
+                            <p class="creative-desc"><i class="fa-solid fa-location-dot"></i> Amsterdam, The Netherlands</p>
+                        </div>
+                    </div>
+                    <div class="col creative">
+                        <div class="creative-card h-100">
+                            <img class="w-100 creative-image" src="images/photos/gyeongbokgung.JPG" alt="">
+                            <p class="creative-desc"><i class="fa-solid fa-location-dot"></i> Gyeongbokgung Palace, Seoul, South Korea</p>
+                        </div>
+                    </div>
+                    <div class="col creative">
+                        <div class="creative-card h-100">
+                            <img class="w-100 creative-image" src="images/photos/oslo.JPG" alt="">
+                            <p class="creative-desc"><i class="fa-solid fa-location-dot"></i> Oslo, Norway</p>
+                        </div>
+                    </div>
+                    <div class="col creative">
+                        <div class="creative-card h-100">
+                            <img class="w-100 creative-image" src="images/photos/copenhagen.JPG" alt="">
+                            <p class="creative-desc"><i class="fa-solid fa-location-dot"></i> Copenhagen, Denmark</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="divider"></div>
