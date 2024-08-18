@@ -156,19 +156,20 @@ a.project-link {
 .project-title {
     color: #333399;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 500 !important;
     text-decoration: none;
 }
 
 .project-date {
     color: #000000;
     font-style: italic;
+    font-weight: 400 !important;
     text-decoration: none;
 }
 
 .project-desc {
     color: #000000;
-    font-weight: 200;
+    font-weight: 200 !important;
     text-decoration: none;
 }
 
@@ -196,6 +197,9 @@ a.project-link {
     text-decoration: none;
 }
 
+.video-embed {
+    margin-bottom: 24px;
+}
 .social-icons {
     text-align: center;
     width: 200px;
