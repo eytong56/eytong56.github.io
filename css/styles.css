@@ -79,7 +79,9 @@ h2 {
     text-decoration: underline;
 }
 
-a, a.nav-link, a.nav-link.disabled {
+a,
+a.nav-link,
+a.nav-link.disabled {
     color: #333399;
 }
 
@@ -88,7 +90,8 @@ a.nav-link {
     font-weight: 300;
 }
 
-a:hover, a:hover.nav-link{
+a:hover,
+a:hover.nav-link {
     color: #8585cc;
 }
 
@@ -163,13 +166,13 @@ a.project-link {
 .project-date {
     color: #000000;
     font-style: italic;
-    font-weight: 400 !important;
+    font-weight: 200 !important;
     text-decoration: none;
 }
 
 .project-desc {
     color: #000000;
-    font-weight: 200 !important;
+    font-weight: 300 !important;
     text-decoration: none;
 }
 
@@ -190,6 +193,7 @@ a.project-link {
     width: 100px;
     margin-bottom: 24px;
 }
+
 .creative-desc {
     color: #333399;
     font-weight: 200;
@@ -198,8 +202,9 @@ a.project-link {
 }
 
 .video-embed {
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
+
 .social-icons {
     text-align: center;
     width: 200px;
@@ -210,11 +215,27 @@ a.project-link {
 .icon {
     flex: 33.33%;
     padding: 10px;
-  }
+}
 
 .divider {
     width: 36px;
     height: 0px;
     border-bottom: 2px solid #8585cc;
     margin: auto;
+}
+
+.subnav {
+    color: #8585cc;
+    font-size: 18px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.subnav a {
+    color: #8585cc;
+}
+
+.subnav a:hover {
+    color: #333399;
 }
