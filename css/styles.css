@@ -234,6 +234,7 @@ a.project-link {
 
 .subnav a {
     color: #8585cc;
+    text-decoration: none !important;
 }
 
 .subnav a:hover {
